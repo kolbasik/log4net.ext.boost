@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionInfo", "SolutionInfo", "{AE3458FD-6538-408C-9FBE-07C3CD0CFF74}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.ext.boost", "log4net.ext.boost\log4net.ext.boost.csproj", "{2663A461-331D-4DBA-9559-8AF409A6A2C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.ext.boost.tests", "log4net.ext.boost.tests\log4net.ext.boost.tests.csproj", "{64ED4995-E088-40B9-8306-4D3D23D97AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.ext.boost.benchmark", "log4net.ext.boost.benchmark\log4net.ext.boost.benchmark.csproj", "{D9A2B348-F949-4E21-A86C-387CF3FEA95E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2663A461-331D-4DBA-9559-8AF409A6A2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2663A461-331D-4DBA-9559-8AF409A6A2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2663A461-331D-4DBA-9559-8AF409A6A2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2663A461-331D-4DBA-9559-8AF409A6A2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64ED4995-E088-40B9-8306-4D3D23D97AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64ED4995-E088-40B9-8306-4D3D23D97AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64ED4995-E088-40B9-8306-4D3D23D97AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64ED4995-E088-40B9-8306-4D3D23D97AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A2B348-F949-4E21-A86C-387CF3FEA95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A2B348-F949-4E21-A86C-387CF3FEA95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A2B348-F949-4E21-A86C-387CF3FEA95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A2B348-F949-4E21-A86C-387CF3FEA95E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
